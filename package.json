@@ -1,0 +1,24 @@
+{
+  "name": "karma-config-example",
+  "version": "1.0.0",
+  "description": "This is a code example of how to configure a project using karma-jasmine for the test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "keywords": [
+    "karma",
+    "jasmine",
+    "configuration",
+    "unit-test",
+    "test"
+  ],
+  "author": "jhenaoz",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^0.1.6"
+  }
+}
